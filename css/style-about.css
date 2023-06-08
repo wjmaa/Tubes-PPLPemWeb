@@ -1,0 +1,116 @@
+:root {
+  --pr-color: #d1f2eb;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #eaffee;
+}
+
+/* Navbar Style */
+.navbar {
+  background-color: #73c6b6;
+  z-index: 100;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.nav-link {
+  font-size: 18px;
+}
+
+.nav-link.active {
+  font-weight: 700;
+}
+
+.button-primary {
+  width: 133px;
+  height: 40px;
+  background-color: #fff;
+  color: var(--pr-color);
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* Hero Section */
+
+#hero {
+  background: linear-gradient(160deg, var(--pr-color), #eaffee);
+  height: 100%;
+  width: 100%;
+}
+
+.img-hero {
+  height: 100%;
+  width: 100%;
+}
+
+.hero-tagline h1 {
+  color: #fff;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 72px;
+  margin-top: 90px;
+}
+
+.hero-tagline p {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+  line-height: 30px;
+  width: 90%;
+}
+
+/* Tentang section */
+#tentang {
+  background: linear-gradient(160deg, var(--pr-color), #eaffee);
+  height: 100vh;
+  width: 100%;
+}
+
+.judul-tentang {
+  font-size: 36px;
+  font-weight: 700;
+  color: #48c9b0;
+}
+
+.tentang-tagline p {
+  color: #000;
+}
+
+#text-tentang {
+  font-size: 18px;
+  color: #000;
+}
+
+.menu {
+  float: left;
+  width: 40%;
+  text-align: center;
+}
+
+.main {
+  float: right;
+  width: 60%;
+  padding: 0 20px;
+}
+
+/* Gambar */
+.card-gambar {
+  width: 100%;
+  height: 350px;
+  border-radius: 5px;
+  background-color: #d1e2d9;
+  padding: 30px;
+}
+
+footer {
+  margin-top: 100px;
+  background: linear-gradient(160deg, var(--pr-color), #eaffee);
+}

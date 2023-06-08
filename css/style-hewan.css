@@ -1,0 +1,110 @@
+/* Navbar Style */
+.navbar {
+    background-color: #85c1e9;
+    z-index: 100;
+  }
+  
+  .navbar-brand {
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  .nav-link {
+    font-size: 18px;
+  }
+  
+  .nav-link.active {
+    font-weight: 700;
+  }
+  
+  .button-primary {
+    width: 133px;
+    height: 40px;
+    background-color: #fff;
+    color: var(--pr-color);
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+  }
+  
+  .button-secondary {
+    width: 133px;
+    height: 40px;
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  /* Hero Section */
+  
+  .banner {
+    background: url("/assets/img/Jumbo.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 38%;
+    padding-bottom: 10%;
+    color: #fff;
+  }
+  
+  .img-hero {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .hero-tagline h1 {
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 72px;
+    margin-top: 90px;
+  }
+  
+  .hero-tagline p {
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    line-height: 30px;
+    width: 90%;
+  }
+
+  /*Hewan Section*/
+  #hewan {
+    padding: 100px 0;
+  }
+  
+  h2 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #85c1e9;
+  }
+  
+  h3{
+    font-size: 30px;
+    font-weight: 600;
+    color: #85c1e9;
+  }
+
+  #gambar-hewan {
+    height: 300px;
+    width: auto;
+  }
+  
+  p {
+    margin-bottom: 30px;
+    margin-top: 15px;
+    line-height: 30px;
+  }
+
+  /* Footer Section */
+footer {
+    margin-top: 100px;
+    background-color: #85c1e9;
+  }
+  
+  .text-dark {
+    text-decoration: none;
+  }
+  

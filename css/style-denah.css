@@ -1,0 +1,89 @@
+:root {
+  --pr-color: #fff;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #fff;
+}
+/* Navbar Style */
+.navbar {
+  background-color: #85c1e9;
+  z-index: 100;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.nav-link {
+  font-size: 18px;
+}
+
+.nav-link.active {
+  font-weight: 700;
+}
+
+.button-primary {
+  width: 133px;
+  height: 40px;
+  background-color: #fff;
+  color: var(--pr-color);
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.button-secondary {
+  width: 133px;
+  height: 40px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* Hero Section */
+
+.banner {
+  background: url("/assets/img/denah.jpg") no-repeat center center;
+  background-size: cover;
+  padding-top: 23%;
+  padding-bottom: 52%;
+  color: #fff;
+}
+
+.img-hero {
+  height: 100%;
+  width: 100%;
+}
+
+.hero-tagline h1 {
+  color: #fff;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 72px;
+  margin-top: 90px;
+}
+
+.hero-tagline p {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 30px;
+  margin-top: 15px;
+  line-height: 30px;
+  width: 90%;
+}
+
+/* Footer Section */
+footer {
+  margin-top: 100px;
+  background-color: #85c1e9;
+}
+
+.text-dark {
+  text-decoration: none;
+}

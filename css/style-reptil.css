@@ -1,0 +1,122 @@
+:root {
+  --pr-color: #fff;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #fff;
+}
+
+/* Navbar Style */
+.navbar {
+  background-color: #85c1e9;
+  z-index: 100;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.nav-link {
+  font-size: 18px;
+}
+
+.nav-link.active {
+  font-weight: 700;
+}
+
+.button-primary {
+  width: 133px;
+  height: 40px;
+  background-color: #fff;
+  color: var(--pr-color);
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.button-secondary {
+  width: 133px;
+  height: 40px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* Satwa Style */
+#kategori {
+  padding: 100px 0;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #85c1e9;
+}
+
+.sub-title {
+  font-size: 18px;
+  color: #000;
+}
+
+p {
+  margin-bottom: 30px;
+  margin-top: 15px;
+  line-height: 30px;
+}
+
+.card-satwa {
+  width: 100%;
+  height: 350px;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+}
+
+.card-satwa h3 {
+  color: #000;
+  font-size: 32px;
+}
+
+.card-satwa p {
+  color: #000;
+  font-size: 18px;
+}
+
+.card-satwa img {
+  width: 300px;
+  height: 300px;
+}
+
+.card-satwa:hover {
+  width: 100%;
+  height: 350px;
+  border-radius: 5px;
+  background-color: #d6eaf8;
+  padding: 30px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+}
+
+.card-satwa:hover h3 {
+  color: #fff;
+  font-size: 32px;
+}
+
+.card-satwa:hover p {
+  color: #aed6f1;
+  font-size: 18px;
+}
+
+/* Footer Section */
+footer {
+  margin-top: 100px;
+  background-color: #85c1e9;
+}
+
+.text-dark {
+  text-decoration: none;
+}
